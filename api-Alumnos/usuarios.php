@@ -123,7 +123,7 @@ function bajaUsuario() {
     }
 
     $id_usuario = $data['id_usuario'];
-  
+       
 
     $stmt = $pdo->prepare("UPDATE usuarios SET estado='baja' WHERE id_usuario=?");
     $stmt->execute([$id_usuario]);
