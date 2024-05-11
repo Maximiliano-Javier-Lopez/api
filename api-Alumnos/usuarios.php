@@ -111,7 +111,7 @@ function modificarUsuario() {
 
     echo json_encode(['mensaje' => 'Usuario modificado correctamente!']);
 }
-
+ 
 
 function bajaUsuario() {
     global $pdo;
